@@ -383,8 +383,8 @@ We're not a "black box." Every design decision is:
 ## Next Steps
 
 - [See how we measure impact →](/docs/for-educators/03_data-and-insights)
-- [Explore the workshop structure →](/docs/workshop-framework/01_overview)
-- [Learn about sponsorship →](/docs/for-educators/01_sponsorship-guide)
+- [Explore the workshop structure →](/docs/workshop-framework/overview)
+- [Learn about sponsorship →](/docs/for-educators/sponsorship-guide)
 
 ---
 

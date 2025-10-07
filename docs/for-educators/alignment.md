@@ -292,10 +292,10 @@ If your district's strategic plan includes goals related to:
 
 Download our alignment documents:
 
-📄 **[Portrait of a Graduate Alignment Map →](#)**  
-📄 **[21st Century Skills Crosswalk →](#)**  
-📄 **[College & Career Readiness Brief →](#)**  
-📄 **[SEL Competencies Overview →](#)**  
+📄 **[Portrait of a Graduate Alignment Map →](/#)**  
+📄 **[21st Century Skills Crosswalk →](/#)**  
+📄 **[College & Career Readiness Brief →](/#)**  
+📄 **[SEL Competencies Overview →](/#)**  
 
 ### Talk to Us About Your Goals
 
@@ -304,7 +304,7 @@ Schedule a consultation to discuss:
 - How AutoNateAI can support specific initiatives
 - Customization options for your context
 
-**[Schedule a call →](#contact)**
+**[Schedule a call →](/#contact)**
 
 ---
 

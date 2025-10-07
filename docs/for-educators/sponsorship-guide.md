@@ -121,7 +121,7 @@ Schedule a 30-minute call with our team to:
 - Answer any questions about implementation
 - Review scheduling and logistics
 
-**[Schedule a Call →](#contact)**
+**[Schedule a Call →](/#contact)**
 
 ---
 
@@ -330,15 +330,15 @@ You can always scale up after seeing the results.
 
 ### Ready to Sponsor Students?
 
-1. **[Schedule a free consultation call →](#contact)**
-2. **[Download the sponsorship overview PDF →](#)**
-3. **[See the full workshop outline →](/docs/workshop-framework/01_overview)**
+1. **[Schedule a free consultation call →](/#contact)**
+2. **[Download the sponsorship overview PDF →](/#)**
+3. **[See the full workshop outline →](/docs/workshop-framework/overview)**
 
 ### Want to Learn More First?
 
 - [See how we track student growth →](/docs/for-educators/03_data-and-insights)
-- [Understand how this aligns with district goals →](/docs/for-educators/04_alignment)
-- [Read the research behind our approach →](/docs/research/01_cognitive-models)
+- [Understand how this aligns with district goals →](/docs/for-educators/alignment)
+- [Read the research behind our approach →](/docs/research/cognitive-models)
 
 ---
 

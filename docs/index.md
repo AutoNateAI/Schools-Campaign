@@ -94,9 +94,9 @@ Explore the sections in this documentation to understand:
 
 **Or jump straight to action:**
 
-- [View the Workshop Framework →](/docs/workshop-framework/01_overview)
-- [Learn About Sponsorship →](/docs/for-educators/01_sponsorship-guide)
-- [See the Research →](/docs/research/01_cognitive-models)
+- [View the Workshop Framework →](/docs/workshop-framework/overview)
+- [Learn About Sponsorship →](/docs/for-educators/sponsorship-guide)
+- [See the Research →](/docs/research/cognitive-models)
 
 ---
 
