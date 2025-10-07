@@ -271,7 +271,7 @@ Districts need evidence that programs work. We provide:
 
 ## Strategic Planning Alignment
 
-{{ ... }}
+### Where AutoNateAI Fits in Your Strategic Plan
 
 If your district's strategic plan includes goals related to:
 

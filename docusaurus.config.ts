@@ -26,6 +26,7 @@ const config: Config = {
   projectName: 'Schools-Campaign', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -90,12 +91,12 @@ const config: Config = {
           label: 'Program Overview',
         },
         {
-          to: '#sponsor',
+          to: '/#sponsor',
           label: 'Sponsor Students',
           position: 'left',
         },
         {
-          to: '#contact',
+          to: '/#contact',
           label: 'Contact',
           position: 'left',
         },
@@ -122,11 +123,11 @@ const config: Config = {
           items: [
             {
               label: 'Contact',
-              to: '#contact',
+              to: '/#contact',
             },
             {
               label: 'Schedule a Call',
-              to: '#contact',
+              to: '/#contact',
             },
           ],
         },
