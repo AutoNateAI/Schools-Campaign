@@ -300,7 +300,7 @@ We can work with your school to:
 - Parents can request data deletion at any time
 - AI interactions are filtered for safety
 
-[Read our full Privacy & Safety Policy →](/docs/ai-prompts/03_moderation-and-safety)
+[Read our full Privacy & Safety Policy →](/docs/ai-prompts/moderation-and-safety)
 
 ---
 
@@ -336,7 +336,7 @@ You can always scale up after seeing the results.
 
 ### Want to Learn More First?
 
-- [See how we track student growth →](/docs/for-educators/03_data-and-insights)
+- [See how we track student growth →](/docs/for-educators/data-and-insights)
 - [Understand how this aligns with district goals →](/docs/for-educators/alignment)
 - [Read the research behind our approach →](/docs/research/cognitive-models)
 

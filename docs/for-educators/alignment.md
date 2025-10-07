@@ -265,13 +265,13 @@ Districts need evidence that programs work. We provide:
 - Skill retention measures
 - Long-term application evidence
 
-[Learn more about our data & insights →](/docs/for-educators/03_data-and-insights)
+[See how we measure impact →](/docs/for-educators/data-and-insights)
 
 ---
 
 ## Strategic Planning Alignment
 
-### Where AutoNateAI Fits in Your Strategic Plan
+{{ ... }}
 
 If your district's strategic plan includes goals related to:
 

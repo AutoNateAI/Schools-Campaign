@@ -227,9 +227,9 @@ They develop:
 
 ## Next Steps
 
-- [Learn why we use Discord as our LMS →](/docs/workshop-framework/03_discord-lms)
-- [Explore the games and simulations →](/docs/workshop-framework/04_games-and-simulations)
-- [See how we measure impact →](/docs/for-educators/03_data-and-insights)
+- [Learn why we use Discord as our LMS →](/docs/workshop-framework/discord-lms)
+- [Explore the games and simulations →](/docs/workshop-framework/games-and-simulations)
+- [See how we measure impact →](/docs/for-educators/data-and-insights)
 
 ---
 

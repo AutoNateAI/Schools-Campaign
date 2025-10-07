@@ -382,7 +382,7 @@ We're not a "black box." Every design decision is:
 
 ## Next Steps
 
-- [See how we measure impact →](/docs/for-educators/03_data-and-insights)
+- [See how we measure impact →](/docs/for-educators/data-and-insights)
 - [Explore the workshop structure →](/docs/workshop-framework/overview)
 - [Learn about sponsorship →](/docs/for-educators/sponsorship-guide)
 

@@ -184,8 +184,8 @@ After the workshop, you'll get:
 ## Next Steps
 
 - [Learn about the 3-Layer Learning Model →](/docs/workshop-framework/learning-model)
-- [Understand why we use Discord →](/docs/workshop-framework/03_discord-lms)
-- [Explore the games and simulations →](/docs/workshop-framework/04_games-and-simulations)
+- [Understand why we use Discord →](/docs/workshop-framework/discord-lms)
+- [Explore the games and simulations →](/docs/workshop-framework/games-and-simulations)
 
 ---
 
