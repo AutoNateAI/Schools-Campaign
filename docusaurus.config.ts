@@ -70,8 +70,18 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Social card for link previews
+    image: 'img/social-card.svg',
+    metadata: [
+      {name: 'description', content: 'AutoNateAI teaches students critical thinking and AI literacy through a 2-hour interactive workshop plus 12 months of guided learning. Empower your district with future-ready skills.'},
+      {name: 'keywords', content: 'critical thinking, AI literacy, education, student workshops, metacognition, school districts, educational innovation'},
+      {property: 'og:title', content: 'AutoNateAI - Critical Thinking for the AI Age'},
+      {property: 'og:description', content: 'Transform how students learn, reflect, and reason with our 2-hour workshop + year-long AI-guided learning portal.'},
+      {property: 'og:type', content: 'website'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'AutoNateAI - Critical Thinking for the AI Age'},
+      {name: 'twitter:description', content: 'Empower students to think critically in the age of AI. 2-hour workshop + 12 months of support.'},
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
