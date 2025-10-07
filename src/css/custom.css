@@ -82,3 +82,16 @@ main {
 [data-theme='dark'] main {
   background: #1a202c;
 }
+
+/* Remove external link icon from navbar */
+.navbar__item a[href*="whop.com"]::after,
+.navbar__link[href*="whop.com"]::after,
+a.navbar__link[target="_blank"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+.navbar__item a[href*="whop.com"] svg,
+.navbar__link[href*="whop.com"] svg {
+  display: none !important;
+}

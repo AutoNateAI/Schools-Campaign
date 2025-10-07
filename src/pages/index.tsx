@@ -28,14 +28,16 @@ function HeroSection() {
           </div>
 
           <div className={styles.heroButtons}>
-            <Link
+            <a
               className={clsx('button button--primary button--lg', styles.primaryCta)}
-              to="#sponsor">
-              🎓 Sponsor Students for the Next Workshop
-            </Link>
+              href="https://whop.com/autonateai/first-coaches-workshop/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Sponsor Students for the Next Workshop
+            </a>
             <Link
               className="button button--secondary button--lg"
-              to="#contact">
+              to="/contact">
               📅 Schedule a Call
             </Link>
           </div>
@@ -215,14 +217,16 @@ function FinalCTASection() {
             Sponsor your first group today and give them the thinking tools that will define their future.
           </p>
           <div className={styles.ctaButtons}>
-            <Link
+            <a
               className={clsx('button button--primary button--lg', styles.primaryCta)}
-              to="#sponsor">
-              🎓 Sponsor Students for the Next Workshop
-            </Link>
+              href="https://whop.com/autonateai/first-coaches-workshop/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Sponsor Students for the Next Workshop
+            </a>
             <Link
               className="button button--secondary button--lg"
-              to="#contact">
+              to="/contact">
               📅 Schedule a Call
             </Link>
           </div>

@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'AutoNateAI Schools',
+  title: 'AutoNateAI',
   tagline: 'Empowering Students to Think Critically in the AI Age',
   favicon: 'img/favicon.ico',
 
@@ -78,7 +78,7 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'AutoNateAI Schools',
+      title: 'AutoNateAI',
       logo: {
         alt: 'AutoNateAI Logo',
         src: 'img/logo.svg',
@@ -91,12 +91,17 @@ const config: Config = {
           label: 'Program Overview',
         },
         {
-          to: '/#sponsor',
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          href: 'https://whop.com/autonateai/first-coaches-workshop/',
           label: 'Sponsor Students',
           position: 'left',
         },
         {
-          to: '/#contact',
+          to: '/contact',
           label: 'Contact',
           position: 'left',
         },
@@ -109,12 +114,8 @@ const config: Config = {
           title: 'Learn More',
           items: [
             {
-              label: 'About AutoNateAI',
-              to: '/docs/intro',
-            },
-            {
               label: 'Program Overview',
-              to: '/docs/intro',
+              to: '/docs/',
             },
           ],
         },
@@ -123,11 +124,11 @@ const config: Config = {
           items: [
             {
               label: 'Contact',
-              to: '/#contact',
+              to: '/contact',
             },
             {
               label: 'Schedule a Call',
-              to: '/#contact',
+              to: '/contact',
             },
           ],
         },
