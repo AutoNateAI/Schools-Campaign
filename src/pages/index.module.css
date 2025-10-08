@@ -53,16 +53,32 @@
 
 .videoPlaceholder {
   margin: 3rem 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .videoBox {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  padding: 60px 40px;
+  padding: 20px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.videoBox iframe {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  border-radius: 12px;
 }
 
 .videoBox:hover {

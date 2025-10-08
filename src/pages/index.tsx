@@ -22,8 +22,16 @@ function HeroSection() {
           
           <div className={styles.videoPlaceholder}>
             <div className={styles.videoBox}>
-              <p>📹 Workshop Overview Video</p>
-              <span className={styles.videoNote}>Add your video embed here</span>
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/Jb1M4y5DWZo?start=1"
+                title="AutoNateAI Workshop Overview"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ borderRadius: '12px' }}
+              ></iframe>
             </div>
           </div>
 
