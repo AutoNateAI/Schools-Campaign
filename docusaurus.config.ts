@@ -106,9 +106,23 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://whop.com/autonateai/first-coaches-workshop/',
-          label: 'Sponsor Students',
+          type: 'dropdown',
+          label: 'Become a Sponsor',
           position: 'left',
+          items: [
+            {
+              label: 'School Districts',
+              to: '/sponsors/school-districts',
+            },
+            {
+              label: 'Local Businesses',
+              to: '/sponsors/local-businesses',
+            },
+            {
+              label: 'Churches',
+              to: '/sponsors/churches',
+            },
+          ],
         },
         {
           to: '/contact',
