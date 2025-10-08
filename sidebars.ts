@@ -21,6 +21,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'workshop-framework/overview',
         'workshop-framework/learning-model',
+        'workshop-framework/discord-lms',
+        'workshop-framework/games-and-simulations',
       ],
     },
     {
@@ -28,7 +30,15 @@ const sidebars: SidebarsConfig = {
       label: 'For Educators & Sponsors',
       items: [
         'for-educators/sponsorship-guide',
+        'for-educators/data-and-insights',
         'for-educators/alignment',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'AI Prompts',
+      items: [
+        'ai-prompts/moderation-and-safety',
       ],
     },
     {
