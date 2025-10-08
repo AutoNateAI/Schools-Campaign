@@ -49,7 +49,7 @@ When you sponsor a student, you're not just funding a 2-hour workshop. You're pr
 
 ### Individual Student Sponsorship
 
-**$150 per student**
+**$250 per student**
 
 Includes:
 - 2-hour workshop
@@ -221,10 +221,10 @@ We offer flexible payment to make sponsorship accessible:
 
 ### What You're Really Paying For
 
-**$150 per student** breaks down to:
+**$250 per student** breaks down to:
 
-- **$75**: Workshop facilitation, AI tools, platform access
-- **$50**: 12 months of portal access and new content
+- **$125**: Workshop facilitation, AI tools, platform access
+- **$75**: 12 months of portal access and new content
 - **$25**: Data tracking, reporting, and educator support
 
 **Per hour of engagement**: Less than $1 per student per hour over the year.

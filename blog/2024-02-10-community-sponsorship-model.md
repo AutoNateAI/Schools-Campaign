@@ -88,7 +88,7 @@ Instead of funding programs, **sponsors fund students**:
 - Individual donors sponsor 1-2 students
 - PTAs sponsor their school's students
 
-**$150 per student. 2-hour workshop + 12 months of support.**
+**$250 per student. 2-hour workshop + 12 months of support.**
 
 ### 2. Transparent Impact
 
@@ -116,9 +116,9 @@ Sponsors are publicly acknowledged:
 
 The model works at any scale:
 
-- **Individual**: Sponsor one student ($150)
-- **Classroom**: Sponsor 25 students ($3,000)
-- **Grade level**: Sponsor 100 students ($10,000)
+- **Individual**: Sponsor one student ($250)
+- **Classroom**: Sponsor 25 students ($6,250)
+- **Grade level**: Sponsor 100 students ($25,000)
 - **District**: Sponsor 500+ students (custom pricing)
 
 **Everyone can participate.**
@@ -182,7 +182,7 @@ We tested the community sponsorship model with 120 students across 4 schools:
 
 ### Local Coffee Shop Owner
 
-> *"I've been in this neighborhood for 15 years. When I heard I could sponsor students at the local middle school for $150 each, it was a no-brainer. I sponsored 10 kids. Seeing their names on the 'Community Sponsors' board in the school lobby? That meant more to me than any ad I could buy."*
+> *"I've been in this neighborhood for 15 years. When I heard I could sponsor students at the local middle school for $250 each, it was a no-brainer. I sponsored 10 kids. Seeing their names on the 'Community Sponsors' board in the school lobby? That meant more to me than any ad I could buy."*
 
 ### Community Foundation Director
 
@@ -223,7 +223,7 @@ We tested the community sponsorship model with 120 students across 4 schools:
 ### Step 2: Make the Ask
 
 **The pitch**:
-*"For $150, you can sponsor a student for a 2-hour critical thinking workshop plus 12 months of AI-guided learning. You'll receive updates on their progress and public recognition for your support. Would you like to invest in our students' future?"*
+*"For $250, you can sponsor a student for a 2-hour critical thinking workshop plus 12 months of AI-guided learning. You'll receive updates on their progress and public recognition for your support. Would you like to invest in our students' future?"*
 
 **Most people say yes.**
 
