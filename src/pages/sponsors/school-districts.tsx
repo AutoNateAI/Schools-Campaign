@@ -74,6 +74,53 @@ export default function SchoolDistricts(): ReactNode {
             </div>
 
             <div className={styles.mainContent}>
+              <Heading as="h2">How It Works</Heading>
+              <p className={styles.processIntro}>
+                We've made the sponsorship process simple and transparent. Here's what to expect:
+              </p>
+              
+              <div className={styles.processSteps}>
+                <div className={styles.processStep}>
+                  <div className={styles.stepNumber}>1</div>
+                  <div className={styles.stepContent}>
+                    <h4>Submit Your Sponsorship Request</h4>
+                    <p>Choose how many students you want to sponsor, select a workshop date, and specify your preferred districts or students.</p>
+                  </div>
+                </div>
+
+                <div className={styles.processStep}>
+                  <div className={styles.stepNumber}>2</div>
+                  <div className={styles.stepContent}>
+                    <h4>Receive Your Invoice</h4>
+                    <p>We'll email you an invoice within 24 hours. Secure payment via Stripe/PayPal with tax-deductible receipt provided.</p>
+                  </div>
+                </div>
+
+                <div className={styles.processStep}>
+                  <div className={styles.stepNumber}>3</div>
+                  <div className={styles.stepContent}>
+                    <h4>Personalize Your Impact (30-min call)</h4>
+                    <p>After payment, we schedule a call to learn about your organization and craft a personalized message to your sponsored students.</p>
+                  </div>
+                </div>
+
+                <div className={styles.processStep}>
+                  <div className={styles.stepNumber}>4</div>
+                  <div className={styles.stepContent}>
+                    <h4>Students Get Access</h4>
+                    <p>3-5 days before the workshop, students receive your personalized message and join their Discord cohort.</p>
+                  </div>
+                </div>
+
+                <div className={styles.processStep}>
+                  <div className={styles.stepNumber}>5</div>
+                  <div className={styles.stepContent}>
+                    <h4>Workshop & Beyond</h4>
+                    <p>2-hour interactive workshop, followed by 12 months of continued learning. You receive impact reports showing student growth.</p>
+                  </div>
+                </div>
+              </div>
+
               <Heading as="h2">Why School Districts Choose AutoNateAI</Heading>
               
               <div className={styles.section}>
