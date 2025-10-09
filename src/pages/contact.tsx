@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
@@ -12,6 +12,17 @@ type FormType = 'consultation' | 'sponsorship';
 
 export default function Contact(): ReactNode {
   const [activeForm, setActiveForm] = useState<FormType>('consultation');
+
+  useEffect(() => {
+    // Check if URL has #sponsor hash
+    if (typeof window !== 'undefined' && window.location.hash === '#sponsor') {
+      setActiveForm('sponsorship');
+      // Scroll to top after a brief delay to let the page render
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 100);
+    }
+  }, []);
 
   return (
     <Layout

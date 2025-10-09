@@ -36,14 +36,12 @@ function HeroSection() {
           </div>
 
           <div className={styles.heroButtons}>
-            <a
+            <Link
               className={clsx('button button--primary button--lg', styles.primaryCta)}
-              href="https://whop.com/autonateai/first-coaches-workshop/"
-              target="_blank"
-              rel="noopener noreferrer">
+              to="/contact#sponsor">
               <span className={styles.buttonTextFull}>Sponsor Students for the Next Workshop</span>
               <span className={styles.buttonTextShort}>Sponsor Students</span>
-            </a>
+            </Link>
             <Link
               className="button button--secondary button--lg"
               to="/contact">
@@ -122,6 +120,36 @@ function HowItWorksSection() {
             They'll use games, prompts, and AI reflections to turn knowledge into lived experience — 
             and generate data-driven progress reports for post-session review.
           </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function MidPageCTA() {
+  return (
+    <section className={styles.ctaSection}>
+      <div className="container">
+        <div className={styles.ctaCard}>
+          <Heading as="h2" className={styles.ctaTitle}>
+            Transform How Your Students Think
+          </Heading>
+          <p className={styles.ctaSubtitle}>
+            Give them the critical thinking skills they need to succeed in an AI-powered world.
+          </p>
+          <div className={styles.ctaButtons}>
+            <Link
+              className={clsx('button button--primary button--lg', styles.primaryCta)}
+              to="/contact#sponsor">
+              <span className={styles.buttonTextFull}>Sponsor Students for the Next Workshop</span>
+              <span className={styles.buttonTextShort}>Sponsor Students</span>
+            </Link>
+            <Link
+              className="button button--secondary button--lg"
+              to="/contact">
+              📅 Schedule a Call
+            </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -226,14 +254,12 @@ function FinalCTASection() {
             Sponsor your first group today and give them the thinking tools that will define their future.
           </p>
           <div className={styles.ctaButtons}>
-            <a
+            <Link
               className={clsx('button button--primary button--lg', styles.primaryCta)}
-              href="https://whop.com/autonateai/first-coaches-workshop/"
-              target="_blank"
-              rel="noopener noreferrer">
+              to="/contact#sponsor">
               <span className={styles.buttonTextFull}>Sponsor Students for the Next Workshop</span>
               <span className={styles.buttonTextShort}>Sponsor Students</span>
-            </a>
+            </Link>
             <Link
               className="button button--secondary button--lg"
               to="/contact">
@@ -256,6 +282,7 @@ export default function Home(): ReactNode {
         <HeroSection />
         <WhySection />
         <HowItWorksSection />
+        <MidPageCTA />
         <SponsorshipSection />
         <WhyDistrictsSection />
         <FinalCTASection />
