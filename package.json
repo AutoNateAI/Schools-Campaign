@@ -19,7 +19,7 @@
     "@docusaurus/preset-classic": "3.9.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "firebase": "^12.3.0",
+    "firebase": "^12.4.0",
     "firebase-admin": "^13.5.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",

@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Workshops - Read only for public, write for admin
+    match /workshops/{workshopId} {
+      allow read: if true;
+      allow write: if false; // Admin only via backend
+    }
+    
+    // Students - Read only for public, write for admin
+    match /students/{studentId} {
+      allow read: if true;
+      allow write: if false; // Admin only via backend
+    }
+    
+    // Consultations - Anyone can create, only admin can read/update
+    match /consultations/{consultationId} {
+      allow create: if true;
+      allow read, update, delete: if false; // Admin only via backend
+    }
+    
+    // Sponsors - Anyone can create, only admin can read/update
+    match /sponsors/{sponsorId} {
+      allow create: if true;
+      allow read, update, delete: if false; // Admin only via backend
+    }
+    
+    // Sponsorships - Anyone can create, only admin can read/update
+    match /sponsorships/{sponsorshipId} {
+      allow create: if true;
+      allow read, update, delete: if false; // Admin only via backend
+    }
+    
+    // Enrollments - Read only for public, write for admin
+    match /enrollments/{enrollmentId} {
+      allow read: if true;
+      allow write: if false; // Admin only via backend
+    }
+  }
+}

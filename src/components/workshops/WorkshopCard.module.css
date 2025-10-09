@@ -1,0 +1,194 @@
+.workshopCard {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.workshopCard:hover:not(.disabled) {
+  border-color: #667eea;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+  transform: translateY(-2px);
+}
+
+.workshopCard.selected {
+  border-color: #667eea;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+}
+
+.workshopCard.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.workshopHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.workshopTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin: 0;
+  flex: 1;
+}
+
+.selectedBadge {
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.workshopDate {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f7fafc;
+  border-radius: 12px;
+}
+
+.dateIcon {
+  font-size: 1.5rem;
+}
+
+.dateText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.25rem;
+}
+
+.timeText {
+  font-size: 0.95rem;
+  color: #718096;
+}
+
+.capacitySection {
+  margin-bottom: 1.5rem;
+}
+
+.capacityBar {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.capacityFill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+  border-radius: 4px;
+}
+
+.capacityText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.enrolled {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.available {
+  color: #718096;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.statusBadge.green {
+  background: #c6f6d5;
+  color: #22543d;
+}
+
+.statusBadge.yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.statusBadge.red {
+  background: #fed7d7;
+  color: #742a2a;
+}
+
+.statusIcon {
+  font-size: 1.1rem;
+}
+
+.statusLabel {
+  font-size: 0.9rem;
+}
+
+.selectButton {
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.selectButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.selectButton:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.workshopCard.selected .selectButton:not(:disabled) {
+  background: #48bb78;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .workshopCard {
+    padding: 1.5rem;
+  }
+
+  .workshopTitle {
+    font-size: 1.25rem;
+  }
+
+  .workshopHeader {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .selectedBadge {
+    align-self: flex-start;
+  }
+}

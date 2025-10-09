@@ -1,11 +1,18 @@
+import React, { useState } from 'react';
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import ConsultationForm from '@site/src/components/forms/ConsultationForm';
+import SponsorshipForm from '@site/src/components/forms/SponsorshipForm';
 
 import styles from './contact.module.css';
 
+type FormType = 'consultation' | 'sponsorship';
+
 export default function Contact(): ReactNode {
+  const [activeForm, setActiveForm] = useState<FormType>('consultation');
+
   return (
     <Layout
       title="Contact Us"
@@ -17,8 +24,35 @@ export default function Contact(): ReactNode {
               Let's Bring Critical Thinking to Your Students
             </Heading>
             <p className={styles.subtitle}>
-              We'd love to discuss how AutoNateAI can support your district's goals.
+              Request a consultation or sponsor students for our next workshop.
             </p>
+          </div>
+        </section>
+
+        <section className={styles.formSection}>
+          <div className="container">
+            <div className={styles.formToggle}>
+              <button
+                className={clsx(styles.toggleButton, activeForm === 'consultation' && styles.active)}
+                onClick={() => setActiveForm('consultation')}
+              >
+                Request Consultation
+              </button>
+              <button
+                className={clsx(styles.toggleButton, activeForm === 'sponsorship' && styles.active)}
+                onClick={() => setActiveForm('sponsorship')}
+              >
+                Sponsor Students
+              </button>
+            </div>
+
+            <div className={styles.formContainer}>
+              {activeForm === 'consultation' ? (
+                <ConsultationForm />
+              ) : (
+                <SponsorshipForm />
+              )}
+            </div>
           </div>
         </section>
 
