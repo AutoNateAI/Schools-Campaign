@@ -344,7 +344,7 @@ You can always scale up after seeing the results.
 
 ## Contact Us
 
-**Email**: schools@autonateai.com  
+**Email**: autonate.ai@gmail.com  
 **Phone**: [Your phone number]  
 **Schedule a call**: [Calendar link]
 

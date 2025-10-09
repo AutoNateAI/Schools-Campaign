@@ -58,42 +58,6 @@ export default function Contact(): ReactNode {
 
         <section className={styles.content}>
           <div className="container">
-            <div className={styles.cardsGrid}>
-              <div className={styles.card}>
-                <div className={styles.cardIcon}>📧</div>
-                <Heading as="h2" className={styles.cardTitle}>Email Us</Heading>
-                <p className={styles.cardText}>
-                  <strong>schools@autonateai.com</strong>
-                </p>
-                <p className={styles.cardSubtext}>
-                  We respond to all inquiries within 24 hours
-                </p>
-              </div>
-
-              <div className={styles.card}>
-                <div className={styles.cardIcon}>📅</div>
-                <Heading as="h2" className={styles.cardTitle}>Schedule a Call</Heading>
-                <p className={styles.cardText}>
-                  Let's discuss your district's needs
-                </p>
-                <a 
-                  href="mailto:schools@autonateai.com?subject=Workshop Inquiry" 
-                  className={clsx('button button--primary', styles.ctaButton)}>
-                  Get in Touch
-                </a>
-              </div>
-
-              <div className={styles.card}>
-                <div className={styles.cardIcon}>💬</div>
-                <Heading as="h2" className={styles.cardTitle}>What to Expect</Heading>
-                <ul className={styles.expectList}>
-                  <li>Listen to your goals</li>
-                  <li>Answer your questions</li>
-                  <li>Customize a plan</li>
-                  <li>Provide next steps</li>
-                </ul>
-              </div>
-            </div>
 
             <div className={styles.infoSection}>
               <div className={styles.infoCard}>
@@ -130,21 +94,23 @@ export default function Contact(): ReactNode {
 
               <div className={styles.ctaCard}>
                 <Heading as="h2" className={styles.ctaTitle}>
-                  Ready to Get Started?
+                  Have More Questions?
                 </Heading>
                 <p className={styles.ctaText}>
-                  Email us at <strong>schools@autonateai.com</strong>
+                  We're here to help! Reach out anytime at{' '}
+                  <a href="mailto:autonate.ai@gmail.com" style={{ color: 'white', textDecoration: 'underline' }}>
+                    <strong>autonate.ai@gmail.com</strong>
+                  </a>
                 </p>
                 <p className={styles.ctaSubtext}>
-                  <strong>Subject line:</strong> "Workshop Inquiry - [Your District Name]"
-                </p>
-                <p className={styles.ctaSubtext}>
-                  <strong>Include:</strong> Your name and role, your district/school, number of students you're considering, and any specific questions or goals.
+                  We respond to all inquiries within 24 hours.
                 </p>
                 <a 
-                  href="mailto:schools@autonateai.com?subject=Workshop Inquiry" 
-                  className={clsx('button button--primary button--lg', styles.mainCta)}>
-                  Contact Us Now
+                  href="mailto:autonate.ai@gmail.com?subject=Workshop%20Inquiry" 
+                  className={clsx('button button--primary button--lg', styles.mainCta)}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Email Us
                 </a>
               </div>
             </div>
