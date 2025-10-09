@@ -121,6 +121,23 @@ export default function LocalBusinesses(): ReactNode {
                 </div>
               </div>
 
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Ready to Get Started?</Heading>
+                <p>Build your brand while building the future workforce of your community.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=local-business#sponsor">
+                    Sponsor Students Now
+                  </Link>
+                  <Link
+                    className={clsx('button button--secondary button--lg')}
+                    to="/contact">
+                    Schedule a Conversation
+                  </Link>
+                </div>
+              </div>
+
               <Heading as="h2">Why Local Businesses Sponsor Students</Heading>
               
               <div className={styles.section}>
@@ -173,6 +190,18 @@ export default function LocalBusinesses(): ReactNode {
                 </div>
               </div>
 
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Invest in Your Community's Future</Heading>
+                <p>Join local businesses making a difference through education sponsorship.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=local-business#sponsor">
+                    Sponsor Students Now
+                  </Link>
+                </div>
+              </div>
+
               <div className={styles.section}>
                 <Heading as="h3">🌟 Recognition & Benefits</Heading>
                 <div className={styles.benefits}>
@@ -213,13 +242,11 @@ export default function LocalBusinesses(): ReactNode {
                 <Heading as="h2">Ready to Invest in Your Community?</Heading>
                 <p>Become a sponsor today and help local students develop the thinking skills they need to succeed.</p>
                 <div className={styles.ctaButtons}>
-                  <a
+                  <Link
                     className={clsx('button button--primary button--lg')}
-                    href="https://whop.com/autonateai/first-coaches-workshop/"
-                    target="_blank"
-                    rel="noopener noreferrer">
+                    to="/contact?type=local-business#sponsor">
                     Sponsor Students Now
-                  </a>
+                  </Link>
                   <Link
                     className={clsx('button button--secondary button--lg')}
                     to="/contact">

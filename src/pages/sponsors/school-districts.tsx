@@ -121,6 +121,23 @@ export default function SchoolDistricts(): ReactNode {
                 </div>
               </div>
 
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Ready to Get Started?</Heading>
+                <p>Bring critical thinking skills to your students and position your district as an innovation leader.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=school-district#sponsor">
+                    Sponsor Students Now
+                  </Link>
+                  <Link
+                    className={clsx('button button--secondary button--lg')}
+                    to="/contact">
+                    Schedule a Consultation
+                  </Link>
+                </div>
+              </div>
+
               <Heading as="h2">Why School Districts Choose AutoNateAI</Heading>
               
               <div className={styles.section}>
@@ -187,6 +204,18 @@ export default function SchoolDistricts(): ReactNode {
                 </div>
               </div>
 
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Transform Your District</Heading>
+                <p>Join forward-thinking districts investing in student critical thinking skills.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=school-district#sponsor">
+                    Sponsor Students Now
+                  </Link>
+                </div>
+              </div>
+
               <div className={styles.testimonial}>
                 <blockquote>
                   <p>"AutoNateAI gave us a way to demonstrate critical thinking instruction to our school board. The data was compelling, and the student engagement was undeniable."</p>
@@ -200,13 +229,13 @@ export default function SchoolDistricts(): ReactNode {
                 <div className={styles.ctaButtons}>
                   <Link
                     className={clsx('button button--primary button--lg')}
-                    to="/contact">
-                    Schedule a Consultation
+                    to="/contact?type=school-district#sponsor">
+                    Sponsor Students Now
                   </Link>
                   <Link
                     className={clsx('button button--secondary button--lg')}
-                    to="/docs/for-educators/sponsorship-guide">
-                    View Sponsorship Guide
+                    to="/contact">
+                    Schedule a Consultation
                   </Link>
                 </div>
               </div>
