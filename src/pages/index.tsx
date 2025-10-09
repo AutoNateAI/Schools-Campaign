@@ -13,7 +13,7 @@ function HeroSection() {
       <div className="container">
         <div className={styles.heroContent}>
           <Heading as="h1" className={styles.heroTitle}>
-            Empower Your Students to Think Critically in the Age of AI
+            Empower Local Students to Think Critically in the Age of AI
           </Heading>
           <p className={styles.heroSubtitle}>
             A 2-hour interactive workshop that transforms how students learn, reflect, and reason — 
@@ -132,10 +132,10 @@ function MidPageCTA() {
       <div className="container">
         <div className={styles.ctaCard}>
           <Heading as="h2" className={styles.ctaTitle}>
-            Transform How Your Students Think
+            Invest in the Next Generation
           </Heading>
           <p className={styles.ctaSubtitle}>
-            Give them the critical thinking skills they need to succeed in an AI-powered world.
+            Sponsor students in your community and give them the critical thinking skills they need to thrive in an AI-powered world.
           </p>
           <div className={styles.ctaButtons}>
             <Link
@@ -207,34 +207,33 @@ function WhyDistrictsSection() {
     <section className={styles.section}>
       <div className="container">
         <Heading as="h2" className={styles.sectionTitle}>
-          Built for the Future of Education
+          Why Sponsor Students?
         </Heading>
         <div className={styles.cardsGrid}>
           <div className={styles.card}>
             <div className={styles.cardIcon}>🎯</div>
-            <Heading as="h3" className={styles.cardTitle}>21st Century Standards</Heading>
-            <p>Aligns with learning standards and Portrait of a Graduate competencies</p>
+            <Heading as="h3" className={styles.cardTitle}>Future-Ready Skills</Heading>
+            <p>Equip students with critical thinking and AI literacy for tomorrow's workforce</p>
           </div>
           <div className={styles.card}>
-            <div className={styles.cardIcon}>🤖</div>
-            <Heading as="h3" className={styles.cardTitle}>AI Literacy</Heading>
-            <p>Promotes ethical technology use and AI fluency</p>
+            <div className={styles.cardIcon}>🤝</div>
+            <Heading as="h3" className={styles.cardTitle}>Community Impact</Heading>
+            <p>Strengthen your local community by investing in student success</p>
           </div>
           <div className={styles.card}>
             <div className={styles.cardIcon}>🧠</div>
-            <Heading as="h3" className={styles.cardTitle}>Critical Thinking</Heading>
-            <p>Strengthens metacognition and collaborative reasoning</p>
+            <Heading as="h3" className={styles.cardTitle}>Proven Results</Heading>
+            <p>Students develop metacognition, reasoning skills, and confidence</p>
           </div>
           <div className={styles.card}>
             <div className={styles.cardIcon}>📊</div>
-            <Heading as="h3" className={styles.cardTitle}>Data-Backed Insights</Heading>
-            <p>Provides measurable insights into student engagement and growth</p>
+            <Heading as="h3" className={styles.cardTitle}>Track Your Impact</Heading>
+            <p>Receive progress reports showing how sponsored students grow</p>
           </div>
         </div>
         <div className={styles.card}>
           <p className={styles.centerText}>
-            Supporting this program positions your district as a leader in educational innovation — 
-            one that equips students not just to adapt to AI, but to <strong>think with it</strong>.
+            Whether you're a school district, local business, church, or individual — sponsoring students positions you as a champion of educational innovation and community development. Together, we equip the next generation not just to adapt to AI, but to <strong>think with it</strong>.
           </p>
         </div>
       </div>
@@ -248,10 +247,10 @@ function FinalCTASection() {
       <div className="container">
         <div className={styles.ctaCard}>
           <Heading as="h2" className={styles.ctaTitle}>
-            Ready to Equip Your Students for the AI Era?
+            Ready to Make a Lasting Impact?
           </Heading>
           <p className={styles.ctaSubtitle}>
-            Sponsor your first group today and give them the thinking tools that will define their future.
+            Join school districts, local businesses, churches, and individuals who are investing in the next generation. Sponsor students today and give them the thinking tools that will define their future.
           </p>
           <div className={styles.ctaButtons}>
             <Link
