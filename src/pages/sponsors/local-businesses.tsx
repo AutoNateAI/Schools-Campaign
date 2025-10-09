@@ -38,13 +38,11 @@ export default function LocalBusinesses(): ReactNode {
               </div>
 
               <div className={styles.heroButtons}>
-                <a
+                <Link
                   className={clsx('button button--primary button--lg')}
-                  href="https://whop.com/autonateai/first-coaches-workshop/"
-                  target="_blank"
-                  rel="noopener noreferrer">
+                  to="/contact?type=local-business#sponsor">
                   Sponsor Students Now
-                </a>
+                </Link>
                 <Link
                   className="button button--secondary button--lg"
                   to="/contact">

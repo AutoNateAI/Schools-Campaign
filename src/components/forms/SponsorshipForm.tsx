@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { collection, addDoc, Timestamp } from 'firebase/firestore';
 import { db } from '../../lib/firebase';
 import type { Sponsorship, NamedStudent } from '../../types/database';
@@ -19,6 +19,17 @@ export default function SponsorshipForm(): React.ReactElement {
     namedStudents: [] as NamedStudent[],
     sponsorMessage: ''
   });
+
+  useEffect(() => {
+    // Check for pre-filled type from URL params
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const typeParam = params.get('type');
+      if (typeParam && ['school-district', 'local-business', 'church'].includes(typeParam)) {
+        setFormData(prev => ({ ...prev, type: typeParam as any }));
+      }
+    }
+  }, []);
 
   const [districtInput, setDistrictInput] = useState('');
   const [namedStudentInput, setNamedStudentInput] = useState({ name: '', school: '', district: '' });
