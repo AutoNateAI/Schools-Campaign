@@ -41,7 +41,8 @@ function HeroSection() {
               href="https://whop.com/autonateai/first-coaches-workshop/"
               target="_blank"
               rel="noopener noreferrer">
-              Sponsor Students for the Next Workshop
+              <span className={styles.buttonTextFull}>Sponsor Students for the Next Workshop</span>
+              <span className={styles.buttonTextShort}>Sponsor Students</span>
             </a>
             <Link
               className="button button--secondary button--lg"
@@ -230,7 +231,8 @@ function FinalCTASection() {
               href="https://whop.com/autonateai/first-coaches-workshop/"
               target="_blank"
               rel="noopener noreferrer">
-              Sponsor Students for the Next Workshop
+              <span className={styles.buttonTextFull}>Sponsor Students for the Next Workshop</span>
+              <span className={styles.buttonTextShort}>Sponsor Students</span>
             </a>
             <Link
               className="button button--secondary button--lg"
