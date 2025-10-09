@@ -125,6 +125,11 @@ const config: Config = {
           ],
         },
         {
+          to: '/students',
+          label: 'Students',
+          position: 'left',
+        },
+        {
           to: '/contact',
           label: 'Contact',
           position: 'left',

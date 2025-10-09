@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { collection, addDoc, Timestamp } from 'firebase/firestore';
 import { db } from '../../lib/firebase';
-import type { Sponsorship, NamedStudent } from '../../types/database';
+import type { Sponsorship, NamedStudent, Student } from '../../types/database';
+import { formatStudentName } from '../../lib/students';
 import WorkshopSelector from '../workshops/WorkshopSelector';
+import Link from '@docusaurus/Link';
 import styles from './Forms.module.css';
 
 export default function SponsorshipForm(): React.ReactElement {
@@ -14,11 +16,13 @@ export default function SponsorshipForm(): React.ReactElement {
     type: 'individual' as 'school-district' | 'local-business' | 'church' | 'individual',
     numberOfStudents: 1,
     workshopId: '',
-    selectionMethod: 'districts' as 'specific' | 'districts' | 'named',
+    selectionMethod: 'districts' as 'specific' | 'districts' | 'named' | 'catalog',
     districtPreferences: [] as string[],
     namedStudents: [] as NamedStudent[],
     sponsorMessage: ''
   });
+
+  const [selectedStudentsFromCatalog, setSelectedStudentsFromCatalog] = useState<Student[]>([]);
 
   useEffect(() => {
     // Check for pre-filled type from URL params
@@ -27,6 +31,22 @@ export default function SponsorshipForm(): React.ReactElement {
       const typeParam = params.get('type');
       if (typeParam && ['school-district', 'local-business', 'church'].includes(typeParam)) {
         setFormData(prev => ({ ...prev, type: typeParam as any }));
+      }
+
+      // Load selected students from sessionStorage
+      const savedStudents = sessionStorage.getItem('selectedStudents');
+      if (savedStudents) {
+        try {
+          const students = JSON.parse(savedStudents);
+          setSelectedStudentsFromCatalog(students);
+          setFormData(prev => ({ 
+            ...prev, 
+            numberOfStudents: students.length,
+            selectionMethod: 'catalog'
+          }));
+        } catch (err) {
+          console.error('Error loading selected students:', err);
+        }
       }
     }
   }, []);
@@ -68,7 +88,7 @@ export default function SponsorshipForm(): React.ReactElement {
         sponsorId: sponsorRef.id,
         workshopId: formData.workshopId,
         numberOfStudents: formData.numberOfStudents,
-        selectedStudentIds: [], // Will be populated from student catalog in Phase 4
+        selectedStudentIds: selectedStudentsFromCatalog.map(s => s.id).filter(Boolean) as string[],
         namedStudents: formData.namedStudents,
         districtPreferences: formData.districtPreferences,
         amount: formData.numberOfStudents * 250, // $250 per student
@@ -79,7 +99,15 @@ export default function SponsorshipForm(): React.ReactElement {
 
       await addDoc(collection(db, 'sponsorships'), sponsorshipData);
       
+      // Clear sessionStorage
+      if (typeof window !== 'undefined') {
+        sessionStorage.removeItem('selectedStudents');
+        sessionStorage.removeItem('fromSponsorshipForm');
+      }
+      
       setSuccess(true);
+      setSelectedStudentsFromCatalog([]);
+      
       // Reset form
       setFormData({
         name: '',
@@ -246,9 +274,12 @@ export default function SponsorshipForm(): React.ReactElement {
               required
               min="1"
               max="100"
+              readOnly={selectedStudentsFromCatalog.length > 0}
+              style={selectedStudentsFromCatalog.length > 0 ? { background: '#f7fafc', cursor: 'not-allowed' } : {}}
             />
             <small className={styles.fieldHint}>
               ${formData.numberOfStudents * 250} total (${250}/student)
+              {selectedStudentsFromCatalog.length > 0 && ' (Set by catalog selection)'}
             </small>
           </div>
         </div>
@@ -274,6 +305,17 @@ export default function SponsorshipForm(): React.ReactElement {
             <input
               type="radio"
               name="selectionMethod"
+              value="catalog"
+              checked={formData.selectionMethod === 'catalog'}
+              onChange={handleChange}
+            />
+            <span>Select from our student catalog</span>
+          </label>
+
+          <label className={styles.radioLabel}>
+            <input
+              type="radio"
+              name="selectionMethod"
               value="districts"
               checked={formData.selectionMethod === 'districts'}
               onChange={handleChange}
@@ -292,6 +334,55 @@ export default function SponsorshipForm(): React.ReactElement {
             <span>I have specific students in mind</span>
           </label>
         </div>
+
+        {formData.selectionMethod === 'catalog' && (
+          <div className={styles.catalogSelector}>
+            {selectedStudentsFromCatalog.length > 0 ? (
+              <>
+                <div className={styles.selectedStudentsList}>
+                  <h4>Selected Students ({selectedStudentsFromCatalog.length})</h4>
+                  <div className={styles.studentList}>
+                    {selectedStudentsFromCatalog.map((student, index) => (
+                      <div key={student.id || index} className={styles.studentItem}>
+                        <div>
+                          <strong>{formatStudentName(student)}</strong>
+                          <br />
+                          <small>{student.school} - {student.district}</small>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <Link
+                  to="/students"
+                  className={styles.browseCatalogButton}
+                  onClick={() => {
+                    if (typeof window !== 'undefined') {
+                      sessionStorage.setItem('fromSponsorshipForm', 'true');
+                    }
+                  }}
+                >
+                  Change Selection
+                </Link>
+              </>
+            ) : (
+              <div className={styles.catalogPrompt}>
+                <p>Browse our student catalog to select specific students you'd like to sponsor.</p>
+                <Link
+                  to="/students"
+                  className={styles.browseCatalogButton}
+                  onClick={() => {
+                    if (typeof window !== 'undefined') {
+                      sessionStorage.setItem('fromSponsorshipForm', 'true');
+                    }
+                  }}
+                >
+                  Browse Student Catalog
+                </Link>
+              </div>
+            )}
+          </div>
+        )}
 
         {formData.selectionMethod === 'districts' && (
           <div className={styles.districtSelector}>
