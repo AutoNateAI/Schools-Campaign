@@ -190,25 +190,15 @@ export default function Churches(): ReactNode {
                 </div>
               </div>
 
-              <div className={styles.section}>
-                <Heading as="h3">🎯 How Churches Use Sponsorship</Heading>
-                <div className={styles.useCases}>
-                  <div className={styles.useCase}>
-                    <h4>Youth Ministry Program</h4>
-                    <p>Sponsor students from your youth group as part of your discipleship and development programming.</p>
-                  </div>
-                  <div className={styles.useCase}>
-                    <h4>Community Outreach</h4>
-                    <p>Partner with local schools to sponsor students who may not have other opportunities for enrichment.</p>
-                  </div>
-                  <div className={styles.useCase}>
-                    <h4>Mission Giving</h4>
-                    <p>Allocate mission funds to education and youth development in your local community.</p>
-                  </div>
-                  <div className={styles.useCase}>
-                    <h4>Memorial Gifts</h4>
-                    <p>Honor loved ones by sponsoring students in their memory, creating lasting impact.</p>
-                  </div>
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Transform Lives Through Education</Heading>
+                <p>Join other faith communities investing in the next generation.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=church#sponsor">
+                    Sponsor Students Now
+                  </Link>
                 </div>
               </div>
 
@@ -230,23 +220,33 @@ export default function Churches(): ReactNode {
                 </div>
               </div>
 
-              <div className={styles.ctaSection}>
-                <Heading as="h2">Transform Lives Through Education</Heading>
-                <p>Join other faith communities investing in the next generation.</p>
-                <div className={styles.ctaButtons}>
-                  <Link
-                    className={clsx('button button--primary button--lg')}
-                    to="/contact?type=church#sponsor">
-                    Sponsor Students Now
-                  </Link>
-                </div>
-              </div>
-
               <div className={styles.testimonial}>
                 <blockquote>
                   <p>"Sponsoring students for the AutoNateAI workshop was a perfect fit for our youth ministry. It gave our young people tools to think critically and make wise decisions—values we deeply care about."</p>
                   <cite>— Youth Pastor, Community Church</cite>
                 </blockquote>
+              </div>
+
+              <div className={styles.section}>
+                <Heading as="h3">🎯 How Churches Use Sponsorship</Heading>
+                <div className={styles.useCases}>
+                  <div className={styles.useCase}>
+                    <h4>Youth Ministry Program</h4>
+                    <p>Sponsor students from your youth group as part of your discipleship and development programming.</p>
+                  </div>
+                  <div className={styles.useCase}>
+                    <h4>Community Outreach</h4>
+                    <p>Partner with local schools to sponsor students who may not have other opportunities for enrichment.</p>
+                  </div>
+                  <div className={styles.useCase}>
+                    <h4>Mission Giving</h4>
+                    <p>Allocate mission funds to education and youth development in your local community.</p>
+                  </div>
+                  <div className={styles.useCase}>
+                    <h4>Memorial Gifts</h4>
+                    <p>Honor loved ones by sponsoring students in their memory, creating lasting impact.</p>
+                  </div>
+                </div>
               </div>
 
               <div className={styles.section}>

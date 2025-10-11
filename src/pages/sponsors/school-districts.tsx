@@ -186,6 +186,18 @@ export default function SchoolDistricts(): ReactNode {
                 </div>
               </div>
 
+              <div className={styles.ctaSection}>
+                <Heading as="h2">Transform Your District</Heading>
+                <p>Join forward-thinking districts investing in student critical thinking skills.</p>
+                <div className={styles.ctaButtons}>
+                  <Link
+                    className={clsx('button button--primary button--lg')}
+                    to="/contact?type=school-district#sponsor">
+                    Sponsor Students Now
+                  </Link>
+                </div>
+              </div>
+
               <div className={styles.section}>
                 <Heading as="h3">📈 What You'll Receive</Heading>
                 <div className={styles.benefits}>
@@ -201,18 +213,6 @@ export default function SchoolDistricts(): ReactNode {
                   <div className={styles.benefit}>
                     <strong>Ongoing:</strong> Quarterly data reports, continued student engagement tracking, success stories
                   </div>
-                </div>
-              </div>
-
-              <div className={styles.ctaSection}>
-                <Heading as="h2">Transform Your District</Heading>
-                <p>Join forward-thinking districts investing in student critical thinking skills.</p>
-                <div className={styles.ctaButtons}>
-                  <Link
-                    className={clsx('button button--primary button--lg')}
-                    to="/contact?type=school-district#sponsor">
-                    Sponsor Students Now
-                  </Link>
                 </div>
               </div>
 
