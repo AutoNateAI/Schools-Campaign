@@ -101,11 +101,6 @@ const config: Config = {
           label: 'Program Overview',
         },
         {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left',
-        },
-        {
           type: 'dropdown',
           label: 'Become a Sponsor',
           position: 'left',
@@ -127,6 +122,11 @@ const config: Config = {
         {
           to: '/students',
           label: 'Students',
+          position: 'left',
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
           position: 'left',
         },
         {
