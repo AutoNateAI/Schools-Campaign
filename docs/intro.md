@@ -6,4 +6,4 @@ sidebar_position: 1
 
 Welcome to AutoNateAI Schools documentation.
 
-For complete information, please see our [main overview](./index.md).
+For complete information, please see our [main overview](./index.mdx).
