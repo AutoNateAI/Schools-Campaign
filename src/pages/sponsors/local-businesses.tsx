@@ -27,7 +27,7 @@ export default function LocalBusinesses(): ReactNode {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/jj-A1tvmJoM"
+                    src="https://www.youtube.com/embed/8L8ebOX0F0E"
                     title="AutoNateAI Workshop Overview"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
