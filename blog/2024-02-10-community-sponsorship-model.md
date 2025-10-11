@@ -4,6 +4,7 @@ title: "Community Sponsorship: A New Model for Equity in Education"
 description: "What if innovation funding didn't depend on budgets — but on community belief?"
 authors: [autonate]
 tags: [equity, community engagement, educational funding, social impact]
+featured: true
 ---
 
 # Community Sponsorship: A New Model for Equity in Education

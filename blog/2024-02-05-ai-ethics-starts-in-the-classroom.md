@@ -1,11 +1,11 @@
 ---
 slug: ai-ethics-starts-in-the-classroom
 title: "AI Ethics Starts in the Classroom"
-description: "AI isn't dangerous — uncritical use of AI is. Here's how to teach responsible AI fluency."
+description: "We can't teach AI ethics in college. By then, it's too late."
 authors: [autonate]
-tags: [ai ethics, digital citizenship, responsible technology, student safety]
+tags: [AI ethics, digital citizenship, responsible AI, education]
+featured: true
 ---
-
 # AI Ethics Starts in the Classroom
 
 **AI isn't dangerous — uncritical use of AI is.**
