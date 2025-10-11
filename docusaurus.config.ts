@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://schools.autonateai.com',
+  url: 'https://sponsors.autonateai.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For custom domains, this should be '/'
   baseUrl: '/',
