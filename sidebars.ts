@@ -34,13 +34,13 @@ const sidebars: SidebarsConfig = {
         'for-educators/alignment',
       ],
     },
-    {
-      type: 'category',
-      label: 'AI Prompts',
-      items: [
-        'ai-prompts/moderation-and-safety',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'AI Prompts',
+    //   items: [
+    //     'ai-prompts/moderation-and-safety',
+    //   ],
+    // },
     {
       type: 'category',
       label: 'Research & Outcomes',
