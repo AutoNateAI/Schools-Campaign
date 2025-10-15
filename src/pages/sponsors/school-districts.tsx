@@ -218,7 +218,7 @@ export default function SchoolDistricts(): ReactNode {
 
               <div className={styles.testimonial}>
                 <blockquote>
-                  <p>"AutoNateAI gave us a way to demonstrate critical thinking instruction to our school board. The data was compelling, and the student engagement was undeniable."</p>
+                  <p>"We're excited to pilot AutoNateAI's approach to critical thinking. The framework is research-backed, and the Discord-based delivery makes it accessible for all our students."</p>
                   <cite>— District Curriculum Director, Michigan</cite>
                 </blockquote>
               </div>
