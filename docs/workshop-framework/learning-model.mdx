@@ -58,7 +58,60 @@ Students are introduced to a specific thinking framework through:
 
 > "When you make a decision, you're predicting the future. You're saying: 'If I do X, then Y will happen.' But most people only think one step ahead. Today, we're learning to think three steps ahead—and to spot the unintended consequences that most people miss."
 
-**Visual**: A simple cause-and-effect chain showing first-order, second-order, and third-order effects.
+<div style={{display: 'flex', justifyContent: 'center', margin: '2rem 0'}}>
+  <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+    {/* Decision Box */}
+    <rect x="20" y="70" width="120" height="60" rx="8" fill="#667eea" stroke="#5568d3" strokeWidth="2"/>
+    <text x="80" y="95" textAnchor="middle" fill="white" fontSize="14" fontWeight="600">Decision</text>
+    <text x="80" y="115" textAnchor="middle" fill="white" fontSize="12">"Do X"</text>
+    
+    {/* Arrow 1 */}
+    <path d="M 140 100 L 190 100" stroke="#667eea" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)"/>
+    
+    {/* First-Order Effect */}
+    <rect x="190" y="70" width="140" height="60" rx="8" fill="#f093fb" stroke="#e07fe8" strokeWidth="2"/>
+    <text x="260" y="90" textAnchor="middle" fill="white" fontSize="13" fontWeight="600">1st Order Effect</text>
+    <text x="260" y="108" textAnchor="middle" fill="white" fontSize="11">Immediate</text>
+    <text x="260" y="122" textAnchor="middle" fill="white" fontSize="11">Consequence</text>
+    
+    {/* Arrow 2 */}
+    <path d="M 330 100 L 380 100" stroke="#f093fb" strokeWidth="3" fill="none" markerEnd="url(#arrowhead2)"/>
+    
+    {/* Second-Order Effect */}
+    <rect x="380" y="70" width="140" height="60" rx="8" fill="#ffa07a" stroke="#ff8c5a" strokeWidth="2"/>
+    <text x="450" y="90" textAnchor="middle" fill="white" fontSize="13" fontWeight="600">2nd Order Effect</text>
+    <text x="450" y="108" textAnchor="middle" fill="white" fontSize="11">Ripple</text>
+    <text x="450" y="122" textAnchor="middle" fill="white" fontSize="11">Consequence</text>
+    
+    {/* Arrow 3 */}
+    <path d="M 520 100 L 570 100" stroke="#ffa07a" strokeWidth="3" fill="none" markerEnd="url(#arrowhead3)"/>
+    
+    {/* Third-Order Effect */}
+    <rect x="570" y="70" width="140" height="60" rx="8" fill="#ff6b6b" stroke="#ff5252" strokeWidth="2"/>
+    <text x="640" y="90" textAnchor="middle" fill="white" fontSize="13" fontWeight="600">3rd Order Effect</text>
+    <text x="640" y="108" textAnchor="middle" fill="white" fontSize="11">Unintended</text>
+    <text x="640" y="122" textAnchor="middle" fill="white" fontSize="11">Consequence</text>
+    
+    {/* Labels below */}
+    <text x="80" y="160" textAnchor="middle" fill="#4a5568" fontSize="11" fontStyle="italic">What you do</text>
+    <text x="260" y="160" textAnchor="middle" fill="#4a5568" fontSize="11" fontStyle="italic">What happens next</text>
+    <text x="450" y="160" textAnchor="middle" fill="#4a5568" fontSize="11" fontStyle="italic">What happens after that</text>
+    <text x="640" y="160" textAnchor="middle" fill="#4a5568" fontSize="11" fontStyle="italic">What most people miss</text>
+    
+    {/* Arrow markers */}
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#667eea"/>
+      </marker>
+      <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#f093fb"/>
+      </marker>
+      <marker id="arrowhead3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#ffa07a"/>
+      </marker>
+    </defs>
+  </svg>
+</div>
 
 <div className="callout callout-info">
   <strong>🧪 The Neuroscience:</strong> Research from cognitive psychology shows that <strong>schema formation</strong> (building mental frameworks) is essential for expert-level thinking. Without a clear schema, students can't organize new information effectively.
@@ -268,6 +321,18 @@ Students who go through this model don't just learn *about* critical thinking—
   <div className="stat-box">
     <span className="stat-number">📈</span>
     <span className="stat-label">Self-Awareness</span>
+  </div>
+  <div className="stat-box">
+    <span className="stat-number">🔮</span>
+    <span className="stat-label">Deep Pattern Recognition</span>
+  </div>
+  <div className="stat-box">
+    <span className="stat-number">🕸️</span>
+    <span className="stat-label">Graph Theory Thinking</span>
+  </div>
+  <div className="stat-box">
+    <span className="stat-number">💡</span>
+    <span className="stat-label">Systems Intelligence</span>
   </div>
   <div className="stat-box">
     <span className="stat-number">🚀</span>
