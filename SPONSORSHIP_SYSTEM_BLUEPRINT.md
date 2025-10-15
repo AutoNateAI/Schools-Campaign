@@ -468,7 +468,7 @@ Subject: You've Been Sponsored for AutoNateAI's Workshop!
 
 Hi [Student Name],
 
-Great news! [Sponsor Name/Org] has sponsored you for our upcoming Critical Thinking + AI Workshop!
+Great news! [Sponsor Name/Org] has sponsored you for our upcoming Critical Thinking with AI Workshop!
 
 Workshop Details:
 - Date: [Date]

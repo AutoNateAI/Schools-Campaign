@@ -67,7 +67,7 @@ function WhySection() {
               Today's students face more information than ever before — yet most aren't taught how to think deeply about what they learn.
             </p>
             <p>
-              Our Critical Thinking + AI Workshop gives them the mental framework to:
+              Our Critical Thinking with AI Workshop gives them the mental framework to:
             </p>
             <ul className={styles.benefitsList}>
               <li>See connections between ideas across subjects</li>

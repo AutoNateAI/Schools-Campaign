@@ -187,7 +187,7 @@ Real Learning Begins with Better Thinking
 
 Copy:
 Today’s students face more information than ever before — yet most aren’t taught how to think deeply about what they learn.
-Our Critical Thinking + AI Workshop gives them the mental framework to:
+Our Critical Thinking with AI Workshop gives them the mental framework to:
 
 See connections between ideas across subjects
 
