@@ -1,8 +1,15 @@
 # Kent County, Michigan - High Schools
 
-**Last Updated:** October 15, 2025  
+**Last Updated:** October 20, 2025  
 **Total School Districts:** 39  
 **County Seat:** Grand Rapids
+
+---
+
+## 🔗 Kent County Resources
+
+**Kent ISD Board Meetings** (where principals and district leaders meet):  
+📅 [Kent ISD Board Meeting Schedule & Agendas](https://www.kentisd.org/administrative-services/school-board/board-minutes-and-agendas-2013-14/)
 
 ---
 
@@ -12,26 +19,33 @@
 - **Address:** 8542 Byron Center Avenue, Byron Center, MI 49315
 - **Phone:** (616) 878-6100
 - **High School:** Byron Center High School
+- **📅 Board Meetings:** [Meeting Schedule & Agendas](https://meetings.boardbook.org/Public/Organization/930)
 
 ### 2. **Caledonia Community Schools**
 - **Address:** 9753 Duncan Lake Ave., Caledonia, MI 49316
 - **Phone:** (616) 891-8185
 - **High School:** Caledonia High School
+- **📅 Board Meetings:** [Board of Education Page](https://www.calschools.org/our-district/board-of-education/)
+  - **Meeting Time:** 3rd Monday of each month at 6:00 PM
 
 ### 3. **Cedar Springs Public Schools**
 - **Address:** 204 E. Muskegon Street, Cedar Springs, MI 49319
 - **Phone:** (616) 696-1204
 - **High School:** Cedar Springs High School
+- **📅 Board Meetings:** [Board of Education & Meeting Info](https://www.csredhawks.org/our-district/board-of-education)
+  - **Meeting Time:** Monthly at 6:15 PM
 
 ### 4. **Comstock Park Public Schools**
 - **Address:** P.O. Box 800, Comstock Park, MI 49321
 - **Phone:** (616) 254-5002
 - **High School:** Comstock Park High School
+- **📅 Board Meetings:** [BoardDocs Meeting Portal](https://go.boarddocs.com/mi/compk/Board.nsf/Public?open&id=policies)
 
 ### 5. **East Grand Rapids Public Schools**
 - **Address:** 2915 Hall Street SE, Grand Rapids, MI 49506
 - **Phone:** (616) 235-3535
 - **High School:** East Grand Rapids High School
+- **📅 Board Meetings:** [Board of Education & Calendar](https://www.egrps.org/district-information/board-of-education)
 
 ### 6. **Forest Hills Public Schools**
 - **Address:** 6590 Cascade Road SE, Grand Rapids, MI 49546
@@ -40,20 +54,25 @@
   - Forest Hills Central High School
   - Forest Hills Northern High School
   - Forest Hills Eastern High School
+- **📅 Board Meetings:** [Board of Education & Meeting Agendas](https://meetings.boardbook.org/Public/Organization/691)
 
 ### 7. **Godfrey-Lee Public Schools**
 - **Address:** 1324 Burton St. SW, Wyoming, MI 49509
 - **Phone:** (616) 241-4722
 - **High School:** Godfrey-Lee High School
+- **📅 Board Meetings:** [Contact district for meeting schedule]
 
 ### 8. **Godwin Heights Public Schools**
 - **Address:** 15 36th Street SW, Wyoming, MI 49548
 - **Phone:** (616) 252-2090
 - **High School:** Godwin Heights High School
+- **📅 Board Meetings:** [Meeting Agendas & Board Info](https://www.godwinschools.org/apps/pages/index.jsp?uREC_ID=4388532&type=d&pREC_ID=2597717)
 
 ### 9. **Grand Rapids Public Schools**
 - **Address:** 1331 Martin Luther King Jr St SE, Grand Rapids, MI 49506
 - **Phone:** (616) 819-2000
+- **📅 Board Meetings:** [Board Meeting Schedule & BoardDocs](https://grps.org/our-district/board-of-education/board-meeting-schedule/) | [Live Agendas](https://go.boarddocs.com/mi/grand/Board.nsf/Public)
+  - **Meeting Time:** Check BoardDocs for specific times
 - **High Schools (Grades 9-12 or 7-12):**
   - **CA Frost Environmental Science Academy Middle High School** (Grades 6-12)
     - Phone: (616) 819-5900
@@ -86,21 +105,25 @@
 - **Address:** 3839 Prairie St SW, Grandville, MI 49418
 - **Phone:** (616) 254-6570
 - **High School:** Grandville High School
+- **📅 Board Meetings:** [Board Members & Meeting Info](https://www.gpsbulldogs.org/apps/pages/board)
 
 ### 11. **Kelloggsville Public Schools**
 - **Address:** 242 52nd Street SE, Grand Rapids, MI 49548
 - **Phone:** (616) 538-7460
 - **High School:** Kelloggsville High School
+- **📅 Board Meetings:** [Contact district for meeting schedule]
 
 ### 12. **Kenowa Hills Public Schools**
 - **Address:** 2325 4 Mile Road NW, Grand Rapids, MI 49544
 - **Phone:** (616) 784-2511
 - **High School:** Kenowa Hills High School
+- **📅 Board Meetings:** [Board of Education & Meeting Schedule](https://www.khps.org/board-of-education)
 
 ### 13. **Kent City Community Schools**
 - **Address:** 200 Clover Street, Kent City, MI 49330
 - **Phone:** (616) 678-7714
 - **High School:** Kent City High School
+- **📅 Board Meetings:** [Contact district for meeting schedule]
 
 ### 14. **Kentwood Public Schools**
 - **Address:** 5820 Eastern Avenue SE, Kentwood, MI 49508
@@ -108,36 +131,45 @@
 - **High Schools:**
   - East Kentwood High School
   - Kentwood High School (alternative)
+- **📅 Board Meetings:** [Board of Education & Meeting Schedule](https://www.kentwoodps.org/ourdistrict/boardofeducation/boeschedule/)
+  - **Meeting Time:** Monthly (typically 2nd Monday) at 6:30 PM
 
 ### 15. **Lowell Area Schools**
 - **Address:** 300 High Street, Lowell, MI 49331
 - **Phone:** (616) 987-2500
 - **High School:** Lowell High School
+- **📅 Board Meetings:** [Board of Education Info](https://www.lowellschools.com/our-district/board-of-education/)
 
 ### 16. **Northview Public School District**
 - **Address:** 4365 Hunsberger Drive NE, Grand Rapids, MI 49525
 - **Phone:** (616) 363-6861
 - **High School:** Northview High School
+- **📅 Board Meetings:** [BoardDocs Meeting Portal](https://go.boarddocs.com/mi/nview/Board.nsf/Public?open&id=meetings)
 
 ### 17. **Rockford Public Schools**
 - **Address:** 350 N. Main Street, Rockford, MI 49341
 - **Phone:** (616) 863-6557
 - **High School:** Rockford High School
+- **📅 Board Meetings:** [Board of Education & Meeting Info](https://www.rockfordschools.org/our-district/board-of-education/)
+  - **Meeting Time:** 5:30 PM (check schedule for dates)
 
 ### 18. **Sparta Area Schools**
 - **Address:** 465 S. Union Street, Sparta, MI 49345
 - **Phone:** (616) 887-8253
 - **High School:** Sparta High School
+- **📅 Board Meetings:** [Board Meeting Notices & Agendas](https://www.spartaschools.org/about/departments/boardofeducation/boardmeetingnotice/)
 
 ### 19. **Wayland Union Schools**
 - **Address:** 500 100th Street, Byron Center, MI 49315
 - **Phone:** (269) 792-2181
 - **High School:** Wayland Union High School
+- **📅 Board Meetings:** [Contact district for meeting schedule]
 
 ### 20. **Wyoming Public Schools**
 - **Address:** 3575 Gladiola Street SW, Wyoming, MI 49519
 - **Phone:** (616) 530-7555
 - **High School:** Wyoming High School
+- **📅 Board Meetings:** [Board of Education & Meeting Schedule](https://wyomingps.org/wyoming-public-schools-meetings/)
 
 ---
 
